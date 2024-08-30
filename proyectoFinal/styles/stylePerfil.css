@@ -1,0 +1,133 @@
+
+
+/* Estilo para todos los botones de clase .btn-custom */
+.btn.btn-custom {
+    background-color: #00BFA6;
+    padding: 10px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px dashed #00BFA6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+}
+
+.btn.btn-custom span:last-child {
+    display: none;
+}
+
+.btn.btn-custom:hover {
+    transition: .4s;
+    border: 2px dashed #00BFA6;
+    background-color: #fff;
+    color: #00BFA6;
+}
+
+.btn.btn-custom:active {
+    background-color: #87dbd0;
+}
+
+
+
+/* Estilo logo header */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Ajusta el padding según sea necesario */
+}
+
+.logo-header {
+    max-width: 100px; 
+    max-height: 100px;  
+}
+
+@media (max-width: 992px) {
+    .d-flex {
+        margin-right: 0;
+    }
+}
+
+/* footer */
+
+.footer-top {
+    margin-top:80px;
+    background-color: #00BFA6;
+    color: white;
+    padding: 20px 0;
+    border-top: 3px solid #84d3ab;
+}
+.footer-top h5, .footer-top p {
+    margin: 0;
+}
+.footer-bottom {
+    background-color: #dee2e6;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 3px solid #84d3ab;
+}
+
+/*botones*/
+.btn.btn-primary {
+    background-color: #00BFA6 !important;
+    padding: 10px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px dashed #00BFA6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+}
+
+.btn.btn-primary:hover {
+    transition: .4s;
+    border: 2px dashed #00BFA6;
+    background-color: #fff;
+    color: #00BFA6;
+}
+
+.btn.btn-primary:active {
+    background-color: #87dbd0;
+}
+
+/*para el contenedor de la imagen*/
+.profile-image-container {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+    .profile-image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+/* cartas de articulos en venta */
+
+.card {
+    perspective: 1000px;
+    transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-img-top {
+    width: 150px;
+    height: 320px;
+    object-fit: fill;
+    margin: 0 auto;
+}
